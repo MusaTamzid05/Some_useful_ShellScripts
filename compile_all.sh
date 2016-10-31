@@ -6,7 +6,7 @@
 
 
 # if one file is given ,then thats the output
-
+#Please see compile_all_.sh for compile with directories that has .h and .cpp file
 
 output_file_name='output'
 

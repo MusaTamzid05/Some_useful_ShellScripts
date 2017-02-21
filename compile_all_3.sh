@@ -43,6 +43,5 @@ function create_structure {
 
 dir=$(pwd)
 create_structure $dir
-echo $complile_file
 
 g++ $complile_file -std=c++11 -o test

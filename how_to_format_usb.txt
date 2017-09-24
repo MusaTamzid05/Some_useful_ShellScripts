@@ -1,0 +1,8 @@
+
+
+https://www.linuxquestions.org/questions/linux-desktop-74/can%27t-delete-partition-after-using-the-usb-as-a-bootable-usb-for-installing-debian-4175547963-print/
+
+1.dd if=/dev/zero of=/dev/<your disk> bs=512 count=1
+ex: dd if=/dev/zero of=/dev/sdb  bs=512 count=1
+2. mkdosfs <file-type>  /dev/<your-disk>
+ex:mkdosfs -F32 /dev/sdb
